@@ -1,0 +1,58 @@
+# Node.js依存関係
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+.pnpm-store/
+.npm/
+
+# ビルド出力
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+
+# キャッシュ
+.cache/
+.parcel-cache/
+.turbo/
+
+# 環境変数
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# エディタ設定
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# テスト
+coverage/
+
+# ログ
+logs/
+*.log
+
+# ロック/パッケージマネージャー固有
+package-lock.json
+yarn.lock
+# pnpm-lock.yamlはコミットすることをお勧めします
+
+# その他
+.eslintcache/
+.stylelintcache/
+.rollup.cache/
+tsconfig.tsbuildinfo
+.biome/ 
