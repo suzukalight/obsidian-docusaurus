@@ -55,4 +55,7 @@ yarn.lock
 .stylelintcache/
 .rollup.cache/
 tsconfig.tsbuildinfo
-.biome/ 
+.biome/
+
+# obsidian
+.obsidian/
